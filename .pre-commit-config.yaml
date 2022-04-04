@@ -15,7 +15,7 @@ repos:
           - id: forbid-new-submodules
 
     - repo: https://github.com/psf/black
-      rev: 22.1.0
+      rev: 22.3.0
       hooks:
           - id: black
 
@@ -30,6 +30,6 @@ repos:
             additional_dependencies: [pyright@1.1.80]
 
     - repo: https://github.com/jumanjihouse/pre-commit-hook-yamlfmt
-      rev: 0.1.0
+      rev: 0.1.1
       hooks:
           - id: yamlfmt
